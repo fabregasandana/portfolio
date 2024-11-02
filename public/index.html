@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #252734
+        }
+
+        .nav-link{
+            font-family: "Ubuntu", sans-serif;
+        }
+
+        .landingPage{
+            height: 100vh;
+        }
+
+        .typed-cursor {
+            font-size: 3rem; /* Sesuaikan ukuran font cursor agar sama dengan teks */
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-transparent border-gray-200">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
+          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:border-gray-700">
+              <li>
+                <a href="#" class="nav-link font-medium block py-2 px-3 text-white rounded md:bg-transparent md:p-0 dark:text-white hover:text-orange-400" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link font-medium block py-2 px-3 text-gray-900 rounded md:border-0 hover:text-orange-400 md:p-0 dark:text-white">Portofolio</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link font-medium block py-2 px-3 text-gray-900 rounded md:border-0 hover:text-orange-400 md:p-0 dark:text-white">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link font-medium block py-2 px-3 text-gray-900 rounded md:border-0 hover:text-orange-400 md:p-0 dark:text-white">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section id="landingPage">
+      <div class="landingPage flex items-center justify-around">
+        <div class="title space-y-7">
+          <div class="tagline space-y-2"> 
+              <h1 class="text-2xl font-bold text-white">Hello, It's Me</h1>
+              <span id="" class="text-6xl font-bold text-white">Grace Angelika</span>
+              <h1 class="text-4xl font-bold text-white">And I'm a <span id="element" class="text-4xl font-bold text-rose-400"></span></h1>
+              <p class="text-white">UI UX Designer || Web Developer <br> 2 Years Experienced <span class="text-rose-400 font-bold">Instructor in Dhuo Creative</span></p>
+              <p class="text-white"></p>
+          </div>
+          <div class="sosmed space-x-10">
+            <i class="fa-brands fa-twitter text-rose-400 text-xl"></i>      
+            <i class="fa-brands fa-instagram text-rose-400 text-xl"></i>      
+            <i class="fa-brands fa-github text-rose-400 text-xl"></i>      
+            <i class="fa-brands fa-linkedin text-rose-400 text-xl"></i>      
+          </div>
+          <div class="cta">
+            <button class="p-4 text-white bg-rose-400 rounded-full tracking-widest font-bold">Let's Talk <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="banner relative flex justify-center">
+          <div class="h-[21rem] w-[27rem] bg-rose-300 absolute top-[2.5rem] z-0 rounded-[50%] blur-[20px] opacity-[0.2]"></div>
+          <div class="h-[18.5rem] w-[23rem] bg-rose-300 absolute top-[3.33rem] rounded-[50%]"></div>
+          <img src="./img/grc.png" alt="" class="xl:w-96 lg:w-96 z-10 relative -top-10 rounded-full">
+        </div>
+      </div>
+    </section>
+
+    <section id="mainContent">
+
+    </section>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./js/typed.js"></script>
+</body>
+</html>
